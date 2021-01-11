@@ -1,3 +1,4 @@
+import { faCircle } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import Navbar from '../components/Navbar';
 import HeroImage from '../images/hero.svg';
@@ -24,6 +25,13 @@ const Home = () => {
 				<div className="hero-right">
 					<img src={HeroImage} alt="Programmer on computer" />
 				</div>
+			</div>
+			<div className="tech-process">
+				<div className="process"></div>
+
+				<div className="process"></div>
+				<div className="process"></div>
+				<div className="process"></div>
 			</div>
 		</div>
 	);
