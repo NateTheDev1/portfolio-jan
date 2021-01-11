@@ -3,6 +3,7 @@
 
 @import './Navbar.scss';
 @import './Home.scss';
+@import './Work.scss';
 
 html,
 body {
@@ -12,7 +13,7 @@ body {
 
 body {
 	font-family: 'Noto Sans JP', sans-serif;
-	max-width: 1440px;
+	min-width: 1440px;
 	margin: 0 auto;
 	height: 100%;
 	font-size: 100%;

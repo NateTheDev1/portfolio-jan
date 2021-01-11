@@ -1,0 +1,64 @@
+.work-root {
+	width: 90%;
+	margin: 0 auto;
+	height: 100%;
+
+	.work-header {
+		margin-top: 5%;
+		box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+		border-radius: 10px;
+		text-align: center;
+		padding: 2%;
+
+		h2 {
+			letter-spacing: 3px;
+		}
+	}
+	.projects {
+		margin-top: 5%;
+		display: flex;
+		flex-direction: column;
+
+		.project {
+			width: 100%;
+			margin-top: 3%;
+			height: 250px;
+			transition: 0.3s;
+			display: flex;
+
+			.left {
+				width: 50%;
+				margin-top: 3%;
+				padding: 2%;
+				h3 {
+				}
+
+				p {
+				}
+			}
+
+			.right {
+				width: 50%;
+
+				background: url(../images/untangled-cables.png);
+				background-position: right;
+				background-repeat: no-repeat;
+				background-size: contain;
+			}
+		}
+
+		.project:hover {
+			opacity: 0.8;
+			cursor: pointer;
+		}
+
+		.untangled-cables {
+			color: white;
+			background: #bc67ff;
+		}
+
+		.tweeter {
+			background: #4693d9;
+		}
+	}
+}
