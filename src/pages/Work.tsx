@@ -5,9 +5,6 @@ import { motion } from 'framer-motion';
 import FadeIn from 'react-fade-in';
 import Clickable from '../components/Clickable';
 
-// Images
-import UTcables from '../images/untangled-cables.png';
-
 const Work = () => {
 	return (
 		<div className="work-root">
